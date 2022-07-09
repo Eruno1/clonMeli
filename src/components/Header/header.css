@@ -1,0 +1,133 @@
+
+.eruno {
+    width: 100vw;
+    color: black;
+    background-color: #fff159;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 0 0 rgb(0 0 0 / 10%);
+}
+
+.logo__meli {
+    padding: 5px 10px 0;
+    margin: 10px;
+}
+
+.menumedio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+    height: 100%;
+}
+
+.searchbar {
+    display: flex;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+}
+
+.searchbar__input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 2px 0px 0px 2px;
+
+}
+
+.searchbar__input::placeholder {
+    color: rgba(0, 0, 0, 0.185);
+    font-size: 15px;
+}
+
+.botonblanco {
+    width: 49px;
+    height: 36px;
+    background-color: white;
+    border: none;
+    /* border-left: 1px solid grey; */
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 0 2px 2px 0;
+
+}
+
+.botonblanco::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.2);
+    inset: 0;
+    top: 5px;
+}
+
+
+
+.lupita {
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+}
+
+.ubicacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ubicacion__icono {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.lista__categorias {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    text-align: start;
+    margin-left: -10px;
+    align-items: flex-end;
+}
+
+.lista__categorias li {
+    margin: 0px 10px;
+    font-size: 15px;
+}
+
+.lista__categorias li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.4);
+    ;
+}
+
+.juanfre {
+    font-size: 25px;
+}
+
+.menuderecha {
+    margin-left: 30px;
+}
+
+.menuderecha__imagen {
+    display: flex;
+    width: 340px;
+    height: 39px;
+    width: 100%;
+}
+
+.list__usuario {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.list__usuario li  a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 0px 5px;
+}
